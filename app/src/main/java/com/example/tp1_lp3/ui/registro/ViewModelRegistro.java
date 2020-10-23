@@ -12,8 +12,6 @@ import androidx.lifecycle.MutableLiveData;
 import com.example.tp1_lp3.model.Usuario;
 import com.example.tp1_lp3.request.ApiClient;
 
-import java.util.List;
-
 public class ViewModelRegistro extends AndroidViewModel {
 
     private MutableLiveData<Usuario> usuarioMutable;

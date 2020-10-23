@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = new Intent(getApplicationContext(), RegistroActivity.class);
                 i.putExtra("usuario", 0);
                 startActivity(i);
-            
+
             }
         });
     }

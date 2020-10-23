@@ -3,12 +3,10 @@ package com.example.tp1_lp3.ui.login;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
-
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
-
 import com.example.tp1_lp3.model.Usuario;
 import com.example.tp1_lp3.request.ApiClient;
 import com.example.tp1_lp3.ui.registro.RegistroActivity;
@@ -31,7 +29,6 @@ public class ViewModelMain extends AndroidViewModel {
         }
         return btnLogin;
     }
-
 
     public void login (String usr, String pass){
 
